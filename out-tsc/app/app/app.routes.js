@@ -1,4 +1,3 @@
-import { Routes } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
 import { RestaurantsComponent } from "./restaurants/restaurants.component";
 import { RestaurantDetailComponent } from "./restaurant-detail/restaurant-detail.component";
@@ -7,8 +6,7 @@ import { ReviewsComponent } from "./restaurant-detail/reviews/reviews.component"
 import { OrderSummaryComponent } from "./order/order-summary/order-summary.component";
 import { NotFoundComponent } from "./not-found/not-found.component";
 import { SliderComponent } from "./slider/slider.component";
-
-export const ROUTES: Routes = [
+export var ROUTES = [
     { path: '', component: HomeComponent },
     { path: 'about', loadChildren: './about/about.module#AboutModule' },
     { path: 'restaurants', component: RestaurantsComponent },
@@ -24,4 +22,5 @@ export const ROUTES: Routes = [
     { path: 'order', loadChildren: './order/order.module#OrderModule' },
     { path: 'order-summary', component: OrderSummaryComponent },
     { path: '**', component: NotFoundComponent }
-]
+];
+//# sourceMappingURL=app.routes.js.map
