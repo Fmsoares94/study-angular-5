@@ -27,8 +27,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { LoginComponent } from './security/login/login.component';
 import { SliderComponent } from './slider/slider.component';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
-var AppModule = (function () {
+import { SlickModule } from 'ngx-slick';
+var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
@@ -56,7 +56,7 @@ var AppModule = (function () {
                 FormsModule,
                 ReactiveFormsModule,
                 BrowserAnimationsModule,
-                SlickCarouselModule,
+                SlickModule.forRoot(),
                 SharedModule.forRoot(),
                 RouterModule.forRoot(ROUTES, { preloadingStrategy: PreloadAllModules })
             ],

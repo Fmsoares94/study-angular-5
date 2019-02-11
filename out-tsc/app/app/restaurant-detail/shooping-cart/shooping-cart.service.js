@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { CartItem } from "./cart-item.model";
 import { NotificationService } from "app/shared/messages/notification.service";
 import { Injectable } from "@angular/core";
-var ShoopingCartService = (function () {
+var ShoopingCartService = /** @class */ (function () {
     function ShoopingCartService(notificationService) {
         this.notificationService = notificationService;
         this.items = [];

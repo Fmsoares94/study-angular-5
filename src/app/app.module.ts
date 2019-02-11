@@ -21,8 +21,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { LoginComponent } from './security/login/login.component';
 import { SliderComponent } from './slider/slider.component';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
-
+import { SlickModule } from 'ngx-slick';
 
 @NgModule({
   declarations: [
@@ -48,7 +47,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    SlickCarouselModule,
+    SlickModule.forRoot(),
     SharedModule.forRoot(),
     RouterModule.forRoot(ROUTES, { preloadingStrategy: PreloadAllModules })
 

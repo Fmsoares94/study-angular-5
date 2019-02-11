@@ -27,13 +27,15 @@
       "../node_modules/admin-lte/plugins/iCheck/flat/red.css",
       "../node_modules/slick-carousel/slick/slick.scss",
       "../node_modules/slick-carousel/slick/slick-theme.scss",
+      "../node_modules/slick-carousel/slick/slick-theme.css",
+      "../node_modules/slick-carousel/slick/slick.css",
       "styles.css"
     ],
     "scripts": [
       "../node_modules/jquery/dist/jquery.min.js",
       "../node_modules/admin-lte/bootstrap/js/bootstrap.min.js",
       "../node_modules/admin-lte/dist/js/app.min.js",
-      "../node_modules/slick-carousel/slick/slick.min.js"
+      "../node_modules/slick-carousel/slick/slick.min.js"     
     ],
     "environmentSource": "environments/environment.ts",
     "environments": {

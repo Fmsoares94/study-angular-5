@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component, Input, forwardRef } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-var RadioComponent = (function () {
+var RadioComponent = /** @class */ (function () {
     function RadioComponent() {
     }
     RadioComponent_1 = RadioComponent;
@@ -31,6 +31,7 @@ var RadioComponent = (function () {
     RadioComponent.prototype.setDisabledState = function (isDisabled) {
         return;
     };
+    var RadioComponent_1;
     __decorate([
         Input(),
         __metadata("design:type", Array)
@@ -50,7 +51,6 @@ var RadioComponent = (function () {
         __metadata("design:paramtypes", [])
     ], RadioComponent);
     return RadioComponent;
-    var RadioComponent_1;
 }());
 export { RadioComponent };
 //# sourceMappingURL=radio.component.js.map

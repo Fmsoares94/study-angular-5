@@ -1,7 +1,7 @@
 import { Observable } from "rxjs/Observable";
 import { HttpErrorResponse } from "@angular/common/http";
 import 'rxjs/observable/throw';
-var ErrorHandler = (function () {
+var ErrorHandler = /** @class */ (function () {
     function ErrorHandler() {
     }
     ErrorHandler.handlerError = function (error) {

@@ -8,7 +8,7 @@ import { NgModule } from "@angular/core";
 import { ShoopingCartService } from "app/restaurant-detail/shooping-cart/shooping-cart.service";
 import { RestaurantsService } from "app/restaurants/restaurant/restaurants.service";
 import { OrderService } from "app/order/order.service";
-var CoreModule = (function () {
+var CoreModule = /** @class */ (function () {
     function CoreModule() {
     }
     CoreModule = __decorate([

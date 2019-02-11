@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Component } from '@angular/core';
 import { ShoopingCartService } from './shooping-cart.service';
 import { trigger, state, transition, animate, style, keyframes } from '@angular/animations';
-var ShoopingCartComponent = (function () {
+var ShoopingCartComponent = /** @class */ (function () {
     function ShoopingCartComponent(shoopingCartService) {
         this.shoopingCartService = shoopingCartService;
         this.rowState = 'ready';

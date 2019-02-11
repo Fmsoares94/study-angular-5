@@ -12,7 +12,7 @@ import { OrderService } from './order.service';
 import { OrderItem } from './order.model';
 import { Router } from '@angular/router';
 import { FormBuilder, Validators } from '@angular/forms';
-var OrderComponent = (function () {
+var OrderComponent = /** @class */ (function () {
     function OrderComponent(orderService, router, formBuilder) {
         this.orderService = orderService;
         this.router = router;
@@ -76,6 +76,7 @@ var OrderComponent = (function () {
         });
         console.log(order);
     };
+    var OrderComponent_1;
     OrderComponent = OrderComponent_1 = __decorate([
         Component({
             selector: 'mt-order',
@@ -86,7 +87,6 @@ var OrderComponent = (function () {
             FormBuilder])
     ], OrderComponent);
     return OrderComponent;
-    var OrderComponent_1;
 }());
 export { OrderComponent };
 //# sourceMappingURL=order.component.js.map

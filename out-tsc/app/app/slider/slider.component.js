@@ -8,7 +8,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Component } from '@angular/core';
-var SliderComponent = (function () {
+var SliderComponent = /** @class */ (function () {
     function SliderComponent() {
         this.slides = [
             { img: "http://placehold.it/350x150/000000" },
@@ -16,7 +16,7 @@ var SliderComponent = (function () {
             { img: "http://placehold.it/350x150/333333" },
             { img: "http://placehold.it/350x150/666666" }
         ];
-        this.slideConfig = { "slidesToShow": 4, "slidesToScroll": 4 };
+        this.slideConfig = { "slidesToShow": 1, "slidesToScroll": 1 };
     }
     SliderComponent.prototype.addSlide = function () {
         this.slides.push({ img: "http://placehold.it/350x150/777777" });
@@ -24,17 +24,8 @@ var SliderComponent = (function () {
     SliderComponent.prototype.removeSlide = function () {
         this.slides.length = this.slides.length - 1;
     };
-    SliderComponent.prototype.slickInit = function (e) {
-        console.log('slick initialized');
-    };
-    SliderComponent.prototype.breakpoint = function (e) {
-        console.log('breakpoint');
-    };
     SliderComponent.prototype.afterChange = function (e) {
         console.log('afterChange');
-    };
-    SliderComponent.prototype.beforeChange = function (e) {
-        console.log('beforeChange');
     };
     SliderComponent.prototype.ngOnInit = function () {
     };

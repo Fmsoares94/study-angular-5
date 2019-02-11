@@ -15,7 +15,7 @@ import { RestaurantsService } from "app/restaurants/restaurant/restaurants.servi
 import { OrderService } from "app/order/order.service";
 import { SnackbarComponent } from './messages/snackbar/snackbar.component';
 import { NotificationService } from "./messages/notification.service";
-var SharedModule = (function () {
+var SharedModule = /** @class */ (function () {
     function SharedModule() {
     }
     SharedModule_1 = SharedModule;
@@ -25,6 +25,7 @@ var SharedModule = (function () {
             providers: [ShoopingCartService, RestaurantsService, OrderService, NotificationService]
         };
     };
+    var SharedModule_1;
     SharedModule = SharedModule_1 = __decorate([
         NgModule({
             declarations: [InputComponent, RadioComponent, RatingComponent, SnackbarComponent],
@@ -35,7 +36,6 @@ var SharedModule = (function () {
         })
     ], SharedModule);
     return SharedModule;
-    var SharedModule_1;
 }());
 export { SharedModule };
 //# sourceMappingURL=shared.module.js.map
